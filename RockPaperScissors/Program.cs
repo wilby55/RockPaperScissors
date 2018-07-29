@@ -10,6 +10,7 @@ namespace RockPaperScissors
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("helloworld");
         }
     }
 }
