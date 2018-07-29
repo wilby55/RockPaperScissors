@@ -11,11 +11,9 @@ namespace RockPaperScissors
         static void Main(string[] args)
         {
             RPSTrainer trainer = new RPSTrainer();
-            //trainer.train(100);
+            trainer.Train(1000000);
             Console.WriteLine("---------------------------------");
-            //Console.WriteLine(getAverageStrategy().toSting());
-
-            Console.WriteLine(trainer.rnd.NextDouble());
+            trainer.GetAverageStrategy().ToList().ForEach(Console.WriteLine);
         }
     }
 }
