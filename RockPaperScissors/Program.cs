@@ -10,7 +10,12 @@ namespace RockPaperScissors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("helloworld");
+            RPSTrainer trainer = new RPSTrainer();
+            //trainer.train(100);
+            Console.WriteLine("---------------------------------");
+            //Console.WriteLine(getAverageStrategy().toSting());
+
+            Console.WriteLine(trainer.rnd.NextDouble());
         }
     }
 }
